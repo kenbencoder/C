@@ -9,12 +9,12 @@ int main()
 	printf("my char: %c\n", myChar);
 
 	float myPI = 3.142f;
-	printf("my PI: %f", myPI);
+	printf("my PI: %f\n", myPI);
 
 	double piDouble = 3.142;
 	printf("pi double: %lf\n", piDouble);
 
-	printf("%d %c %f %lf\n", myInt, myChar, myPI, piDouble);
+	printf("\n%d %c %f %lf\n", myInt, myChar, myPI, piDouble);
 	return 0;
 }
 
